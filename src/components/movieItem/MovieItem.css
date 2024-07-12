@@ -1,0 +1,17 @@
+.btn-like {
+  transition: all 200ms ease;
+  transform: translateY(0.5rem);
+  opacity: 0;
+}
+.movieItem h4 {
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.movieItem.favourite h4 {
+  color: #48cae4;
+}
+.movieItem.like .btn-like {
+  transform: translateY(0);
+
+  opacity: 1;
+}
